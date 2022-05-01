@@ -7,7 +7,7 @@ void SelectionSort(int a[], int max)
     
     bool doswap = false;
     
-    for (i=0; i < max; i++)
+    for (i=0; i < max - 1; i++)
     {
         key = a[i];
         min_index = i;
